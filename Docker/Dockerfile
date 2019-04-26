@@ -5,7 +5,7 @@ FROM centos:centos7
 ENV LANG C.UTF-8
 ENV LC_ALL en_US.UTF-8
 
-ENV PYTHON_VERSION 3.7.1
+ENV PYTHON_VERSION 3.7.3
 
 # if this is called "PIP_VERSION", pip explodes with "ValueError: invalid truth value '<VERSION>'"
 ENV PYTHON_PIP_VERSION 18.0
